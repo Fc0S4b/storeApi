@@ -1,5 +1,6 @@
 require('dotenv').config();
-// async errors
+// async errors - existe una librería que cumple la función de asyncWrapper (que era para ahorrarse los bloques de trycatch)
+require('express-async-errors');
 
 const express = require('express');
 const app = express();
